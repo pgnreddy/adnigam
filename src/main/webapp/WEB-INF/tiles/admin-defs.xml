@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+    <definition name="adminBase" template="/WEB-INF/jsp/admin/adminBase.jsp">
+        <put-attribute name="title"  value="Admin"/>
+        <put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp"/>
+        <put-attribute name="menu" value="/WEB-INF/jsp/admin/menu.jsp"/>
+        <put-attribute name="body"   value="/WEB-INF/jsp/admin/emptybody.jsp"/>
+        <put-attribute name="footer"   value="/WEB-INF/jsp/admin/footer.jsp"/>
+    </definition>
+    
+    
+    <definition name="admin.profile" extends="adminBase">        
+        <put-attribute name="body" value="/WEB-INF/jsp/vendor/profile.jsp"/>   
+        <put-attribute name="menuselection"   value="profile"/>     
+    </definition>
+    
+     
+    <definition name="admin.orders" extends="adminBase">        
+        <put-attribute name="body" value="/WEB-INF/jsp/admin/orders.jsp"/>
+        <put-attribute name="menuselection"   value="orders"/> 
+    </definition>
+    
+    <definition name="admin.cancelordermenu" extends="adminBase">        
+        <put-attribute name="body" value="/WEB-INF/jsp/admin/cancelorder.jsp"/>
+        <put-attribute name="menuselection"   value="cancelorder"/> 
+    </definition>
+    
+    <definition name="admin.vendors" extends="adminBase">        
+        <put-attribute name="body" value="/WEB-INF/jsp/admin/vendors.jsp"/>
+        <put-attribute name="menuselection"   value="vendors"/> 
+    </definition>
+    
+    <definition name="admin.offersPremium" extends="adminBase">        
+        <put-attribute name="body" value="/WEB-INF/jsp/admin/offersPremium.jsp"/>
+        <put-attribute name="menuselection"   value="offersPremium"/> 
+    </definition>
+    
+    <definition name="admin.offersExclusive" extends="adminBase">        
+        <put-attribute name="body" value="/WEB-INF/jsp/admin/offersExclusive.jsp"/>
+        <put-attribute name="menuselection"   value="offersExclusive"/> 
+    </definition>
+    
+    <definition name="admin.offersTodays" extends="adminBase">        
+        <put-attribute name="body" value="/WEB-INF/jsp/admin/offersTodays.jsp"/>
+        <put-attribute name="menuselection"   value="offersTodays"/> 
+    </definition>
+    
+    <definition name="admin.offersUnapproved" extends="adminBase">        
+        <put-attribute name="body" value="/WEB-INF/jsp/admin/offersUnapproved.jsp"/>
+        <put-attribute name="menuselection"   value="pendingApprovals"/> 
+    </definition>
+    
+    <definition name="admin.editKeywords" extends="adminBase">        
+        <put-attribute name="body" value="/WEB-INF/jsp/admin/editKeywords.jsp"/>
+        <put-attribute name="menuselection"   value="editKeywords"/> 
+    </definition>
+     
+    <definition name="admin.categories" extends="adminBase">        
+        <put-attribute name="body" value="/WEB-INF/jsp/admin/categories.jsp"/>
+        <put-attribute name="menuselection"   value="categories"/> 
+    </definition>
+    
+    <definition name="admin.adminmenu" extends="adminBase">        
+        <put-attribute name="body" value="/WEB-INF/jsp/admin/admin.jsp"/>
+        <put-attribute name="menuselection"   value="admin"/> 
+    </definition>
+    
+    <definition name="admin.locationmenu" extends="adminBase">        
+        <put-attribute name="body" value="/WEB-INF/jsp/admin/locations.jsp"/>
+        <put-attribute name="menuselection"   value="locations"/> 
+    </definition>
+    
+    <definition name="admin.viewOrder" extends="adminBase">        
+        <put-attribute name="body" value="/WEB-INF/jsp/admin/vieworder.jsp"/>
+        <put-attribute name="menuselection"   value="orders"/> 
+    </definition>
+    
+    <definition name="admin.customersmenu" extends="adminBase">        
+        <put-attribute name="body" value="/WEB-INF/jsp/admin/customers.jsp"/>
+        <put-attribute name="menuselection"   value="customers"/> 
+    </definition>
+    
+    <definition name="admin.coupons" extends="adminBase">        
+        <put-attribute name="body" value="/WEB-INF/jsp/admin/coupons.jsp"/>
+        <put-attribute name="menuselection"   value="coupons"/> 
+    </definition>
+    <definition name="admin.addcoupon" extends="adminBase">        
+        <put-attribute name="body" value="/WEB-INF/jsp/admin/addCoupons.jsp"/>
+        <put-attribute name="menuselection"   value="coupons"/> 
+    </definition>
+    
+    <definition name="admin.reviews" extends="adminBase">        
+        <put-attribute name="body" value="/WEB-INF/jsp/admin/reviews.jsp"/>
+        <put-attribute name="menuselection"   value="reviews"/> 
+    </definition>
+    <definition name="admin.addreview" extends="adminBase">        
+        <put-attribute name="body" value="/WEB-INF/jsp/admin/addReview.jsp"/>
+        <put-attribute name="menuselection"   value="reviews"/> 
+    </definition>
+     <definition name="admin.reports" extends="adminBase">        
+        <put-attribute name="body" value="/WEB-INF/jsp/admin/reports.jsp"/>
+        <put-attribute name="menuselection"   value="reports"/> 
+    </definition>
+    
+</tiles-definitions>

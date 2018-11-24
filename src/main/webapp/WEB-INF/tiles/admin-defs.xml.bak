@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+    <definition name="adminBase" template="/WEB-INF/jsp/admin/adminBase.jsp">
+        <put-attribute name="title"  value="Admin"/>
+        <put-attribute name="header" value="/WEB-INF/jsp/admin/header.jsp"/>
+        <put-attribute name="menu" value="/WEB-INF/jsp/admin/menu.jsp"/>
+        <put-attribute name="body"   value="/WEB-INF/jsp/admin/emptybody.jsp"/>
+        <put-attribute name="footer"   value="/WEB-INF/jsp/admin/footer.jsp"/>
+    </definition>
+    
+    
+    <definition name="admin.profile" extends="adminBase">        
+        <put-attribute name="body" value="/WEB-INF/jsp/vendor/profile.jsp"/>   
+        <put-attribute name="menuselection"   value="profile"/>     
+    </definition>
+    
+     
+    <definition name="admin.orders" extends="adminBase">        
+        <put-attribute name="body" value="/WEB-INF/jsp/admin/orders.jsp"/>
+        <put-attribute name="menuselection"   value="orders"/> 
+    </definition>
+    
+    <definition name="admin.vendors" extends="adminBase">        
+        <put-attribute name="body" value="/WEB-INF/jsp/admin/vendors.jsp"/>
+        <put-attribute name="menuselection"   value="vendors"/> 
+    </definition>
+    
+    <definition name="admin.offersPremium" extends="adminBase">        
+        <put-attribute name="body" value="/WEB-INF/jsp/admin/offersPremium.jsp"/>
+        <put-attribute name="menuselection"   value="offersPremium"/> 
+    </definition>
+    
+    <definition name="admin.offersExclusive" extends="adminBase">        
+        <put-attribute name="body" value="/WEB-INF/jsp/admin/offersExclusive.jsp"/>
+        <put-attribute name="menuselection"   value="offersExclusive"/> 
+    </definition>
+    
+    <definition name="admin.offersTodays" extends="adminBase">        
+        <put-attribute name="body" value="/WEB-INF/jsp/admin/offersTodays.jsp"/>
+        <put-attribute name="menuselection"   value="offersTodays"/> 
+    </definition>
+     
+    <definition name="admin.categories" extends="adminBase">        
+        <put-attribute name="body" value="/WEB-INF/jsp/admin/categories.jsp"/>
+        <put-attribute name="menuselection"   value="categories"/> 
+    </definition>
+    
+    <definition name="admin.adminmenu" extends="adminBase">        
+        <put-attribute name="body" value="/WEB-INF/jsp/admin/admin.jsp"/>
+        <put-attribute name="menuselection"   value="admin"/> 
+    </definition>
+    
+    <definition name="admin.locationmenu" extends="adminBase">        
+        <put-attribute name="body" value="/WEB-INF/jsp/admin/locations.jsp"/>
+        <put-attribute name="menuselection"   value="locations"/> 
+    </definition>
+    
+</tiles-definitions>

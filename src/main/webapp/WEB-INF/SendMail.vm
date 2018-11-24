@@ -1,0 +1,86 @@
+<table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;margin: 0 0; padding: 0 10px; background: #F9F2E7; font-size: 13px;">
+      <tr>
+        <td style="font-family: arial, sans-serif; color: #333333;">
+          <table border="0" cellpadding="0" cellspacing="0" align="center" width="640" bgcolor="#FFFFFF" style="border-collapse: collapse;font-size: 13px;">
+            <tr>
+              <td bgcolor="#ff0000" style="font-family: arial, sans-serif; color: #333333; font-size: 0; line-height: 0; padding: 0 10px; " height="80" align="center" class="responsive-image">
+                <img src="http://www.adnigam.com/resources/images/mail/logo-2.png" width="340" alt="" />
+              </td>
+            </tr>
+            <tr><td style="font-family: arial, sans-serif; color: #333333;font-size: 0; line-height: 0;" height="30">&nbsp;</td></tr>
+            <tr>
+              <td style="font-family: arial, sans-serif; color: #333333;padding: 5px 5px 10px 5px;">
+                <p >  #if($message)
+						 $message.replaceAll("\n","<br/>")
+					 #end
+				</p>
+              </td>
+            </tr>
+            <tr><td style="font-family: arial, sans-serif; color: #333333;font-size: 0; line-height: 0;" height="1" bgcolor="#F9F9F9">&nbsp;</td></tr>
+            <tr>
+              <td style="font-family: arial, sans-serif; color: #333333;">
+                <table border="0" cellpadding="0" cellspacing="0" align="left" width="49%" style="border-collapse: collapse;font-size: 13px;">
+                  <tr>
+                    <td style="font-family: arial, sans-serif; color: #333333;padding: 0 10px 0 10px;" align="center" class="responsive-image">
+						<a href="http://www.adnigam.com/"target="_blank"><img style="box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);" class="effects" src="http://www.adnigam.com/resources/images/mail/image1.png" width="290" alt="" /></a>
+                    </td>
+                  </tr>
+                  <tr><td style="font-family: arial, sans-serif; color: #333333;font-size: 0; line-height: 0;" height="20">&nbsp;</td></tr>
+                  <tr>
+                    <td style="font-family: arial, sans-serif; color: #333333;padding: 0 10px 0 10px;">
+                      <div style="font-weight: bold; font-size: 16px;">We are</div>
+                      <div>
+                        <p>Adnigam is an online market place created for local offline retailers to promote themselves as the best sellers in the vicinity.</p>
+						<p>we enable them to showcase and sell the products and offers to consumers using our web portal and mobile apps.</p>
+						<p>We provide the best and state of the art technology platform which offers seamless integration to all the stake holders.</p>
+						
+						</p>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr><td style="font-family: arial, sans-serif; color: #333333;font-size: 0; line-height: 0;" height="20">&nbsp;</td></tr>
+                </table>
+                <table border="0" cellpadding="0" cellspacing="0" align="right" width="49%" style="border-collapse: collapse;font-size: 13px;">
+                  <tr>
+                    <td style="font-family: arial, sans-serif; color: #333333;padding: 0 10px 0 10px; align="center" class="responsive-image">
+                      <img class="effects" style="box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);" src="http://www.adnigam.com/resources/images/mail/image2.png" width="290" alt="" />
+                    </td>
+                  </tr>
+                  <tr><td style="font-family: arial, sans-serif; color: #333333;font-size: 0; line-height: 0;" height="20">&nbsp;</td></tr>
+                  <tr>
+                    <td style="font-family: arial, sans-serif; color: #333333;padding: 0 10px 0 10px;">
+                      <div style="font-weight: bold; font-size: 16px;">Contact Us</div>
+                      <div>
+					  <br/>
+					  Team - Adnigam <br/>
+					  Address:Plot No.10, SCB #3-14-022,<br/> SP Road,Secunderabad <br/>Begumpet, Hyderabad, Telangana - 500003.<br/>
+					  Phone:040-48516780<br/>
+					  <a href="info@adnigam.com">Email:info@adnigam.com</a><br/><br/>
+					  <p>This is a system Generated mail.<br/>
+					  "Replies to this Mail ID will not be Responded"</p>
+					  
+                      </div>
+                    </td>
+                  </tr>
+                  <tr><td style="font-family: arial, sans-serif; color: #333333;font-size: 0; line-height: 0;" height="20">&nbsp;</td></tr>
+                </table>
+              </td>
+            </tr>
+            <tr><td style="font-family: arial, sans-serif; color: #333333;font-size: 0; line-height: 0;" height="20">&nbsp;</td></tr>
+            <tr>
+              <td bgcolor="#ff00000" style="font-family: arial, sans-serif; color: #333333;">
+                <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;font-size: 13px;">
+                  <tr><td style="font-family: arial, sans-serif; color: #333333;font-size: 0; line-height: 0;" height="15">&nbsp;</td></tr>
+                  <tr>
+                    <td style="font-family: arial, sans-serif; color: #333333;padding: 0 10px; color: #FFFFFF;">
+                      2015-2017, Adnigam. All rights reserved 
+                    </td>
+                  </tr>
+                  <tr><td style="font-family: arial, sans-serif; color: #333333;font-size: 0; line-height: 0;" height="15">&nbsp;</td></tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+    
+    <definition name="myaccountBase" template="/WEB-INF/jsp/myaccount/myaccount.jsp">
+        <put-attribute name="title"  value="Myaccount"/>
+        <put-attribute name="header" value="/WEB-INF/jsp/myaccount/header.jsp"/>        
+        <put-attribute name="menu"   value="/WEB-INF/jsp/myaccount/menu.jsp"/>
+        <put-attribute name="body"   value="/WEB-INF/jsp/myaccount/emptybody.jsp"/>
+        <put-attribute name="footer"   value="/WEB-INF/jsp/adrobe/liteFooter.jsp"/>
+    </definition>
+    
+    <definition name="myaccount.orders" extends="myaccountBase">        
+        <put-attribute name="body" value="/WEB-INF/jsp/myaccount/orders.jsp"/>
+         <!--<put-attribute name="menuselection"   value="orders"/>--> 
+    </definition>
+    
+    <definition name="myaccount.addressbook" extends="myaccountBase">        
+        <put-attribute name="body" value="/WEB-INF/jsp/myaccount/addressbook.jsp"/>
+         <!--<put-attribute name="menuselection"   value="addressbook"/>-->         
+    </definition>
+    
+    <definition name="myaccount.changepassword" extends="myaccountBase">        
+        <put-attribute name="body" value="/WEB-INF/jsp/myaccount/changepwd.jsp"/>        
+    </definition>
+    
+    <definition name="myaccount.referfriend" extends="myaccountBase">        
+        <put-attribute name="body" value="/WEB-INF/jsp/myaccount/referfriend.jsp"/>        
+         <!--<put-attribute name="menuselection"   value="referfriend"/>--> 
+    </definition>
+    
+    <definition name="myaccount.feedback" extends="myaccountBase">        
+        <put-attribute name="body" value="/WEB-INF/jsp/myaccount/feedback.jsp"/>        
+        <!--<put-attribute name="menuselection"   value="feedback"/>-->  
+    </definition>
+    
+    <definition name="myaccount.accountprofile" extends="myaccountBase">        
+        <put-attribute name="body" value="/WEB-INF/jsp/myaccount/accountprofile.jsp"/>        
+        <!--<put-attribute name="menuselection"   value="accountprofile"/>-->  
+    </definition><definition name="myaccount.orderinfo" extends="myaccountBase">        
+        <put-attribute name="body" value="/WEB-INF/jsp/myaccount/orderinfo.jsp"/>        
+        <!--<put-attribute name="menuselection"   value="accountprofile"/>-->  
+    </definition>
+    
+    <definition name="myaccount.coupons" extends="myaccountBase">        
+        <put-attribute name="body" value="/WEB-INF/jsp/myaccount/coupons.jsp"/>
+    </definition>
+    
+     <definition name="myaccount.favourites" extends="myaccountBase">        
+        <put-attribute name="body" value="/WEB-INF/jsp/myaccount/favourites.jsp"/>
+    </definition>
+     
+</tiles-definitions>

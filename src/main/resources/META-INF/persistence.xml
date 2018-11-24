@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="com.cnbitsols_Adrobe_war_1.0-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.cnbitsols.adrobe.entities.Orders</class>
+    <class>com.cnbitsols.adrobe.entities.EmailQueue</class>
+    <class>com.cnbitsols.adrobe.entities.SmsQueue</class>
+    <class>com.cnbitsols.adrobe.entities.UserRequests</class>
+    <class>com.cnbitsols.adrobe.entities.OrdersProducts</class>
+    <class>com.cnbitsols.adrobe.entities.VendorNoftificationQueue</class>
+    <class>com.cnbitsols.adrobe.entities.OrdersProductsStatusHistory</class>
+    <class>com.cnbitsols.adrobe.entities.Coupons</class>
+    <class>com.cnbitsols.adrobe.entities.CustomerCoupons</class>
+    <class>com.cnbitsols.adrobe.entities.FavouriteCustomerProducts</class>
+    <class>com.cnbitsols.adrobe.entities.Reviews</class>
+    <class>com.cnbitsols.adrobe.entities.PaymentTransactions</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/adrobe?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.password" value="imi@123"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+    </properties>
+  </persistence-unit>
+</persistence>
